@@ -114,3 +114,9 @@ p {
     color: var(--primary);
     font-weight: bold;
 }
+
+.name-container {
+    text-align: left;
+    vertical-align: top;
+    margin: 0;
+}

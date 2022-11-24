@@ -1,6 +1,6 @@
 :root {
-    --primary: rgb(58,91,97);
-    --secondary: rgb(38,44,48);
+    --primary: #3a5b61;
+    --secondary: #262c30;
     --background: rgb(255, 255, 255);
 }
 
@@ -17,7 +17,7 @@ div {
     margin:0;
     padding-left: 1%;
     width: 35%;
-    border-left: 10px solid var(--secondary);
+    border-left: 10px solid #262c30;
 }
 .right-container {
     text-align: left;
@@ -29,6 +29,7 @@ div {
 }
 
 #navbarNav {
+    padding-top: 10px;
     margin: 0;
 }
 
@@ -83,7 +84,7 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 18px;
     color: var(--secondary);
 }
 
@@ -93,7 +94,7 @@ h4 {
 }
 
 p {
-    font-size: 14px;
+    font-size: var(--bs-body-font-size);
     color: var(--secondary);
 }
 

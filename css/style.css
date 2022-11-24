@@ -1,7 +1,7 @@
 :root {
     --primary: #3a5b61;
     --secondary: #262c30;
-    --background: rgb(255, 255, 255);
+    --background: #262c30;
 }
 
 div {
@@ -9,6 +9,7 @@ div {
     margin-bottom: 20%;
     margin-top: 20%;
 }
+
 
 .left-container {
     text-align: left;
@@ -29,7 +30,6 @@ div {
 }
 
 #navbarNav {
-    padding-top: 10px;
     margin: 0;
 }
 
@@ -39,7 +39,7 @@ div {
 }
 
 .nav-link {
-    padding:0 ! important;
+    padding: 10px ! important;
     font-size: 20px;
     font-weight: bold;
     color: var(--primary);
@@ -51,7 +51,7 @@ div {
 
 body {
     background-color: var(--background);
-    background: linear-gradient(55deg, rgba(255,255,255,1) 0%, rgb(207, 239, 239) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(55deg, #0f323740 0%, #0f323726 35%, rgb(216 222 223) 100%);
     color: var(--secondary);
 }
 

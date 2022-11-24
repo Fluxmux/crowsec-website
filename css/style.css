@@ -1,6 +1,7 @@
 :root {
     --primary: #3a5b61;
     --secondary: #262c30;
+    --tertiary: #996515 ;
     --background: #262c30;
 }
 
@@ -57,6 +58,10 @@ body {
 
 a {
     color: var(--primary);
+}
+
+a:hover {
+    color: var(--tertiary);
 }
 
 h2 a {

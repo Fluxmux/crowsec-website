@@ -121,8 +121,16 @@ p {
     font-weight: bold;
 }
 
-.name-container {
-    text-align: left;
+.person-container {
     vertical-align: top;
+    width: 50%;
     margin: 0;
+    display: inline-block;
+}
+
+.rounded-img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin-bottom: 10%;
 }

@@ -14,82 +14,113 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand fs-1" href=""
-        ><img
-          src="img/crowsec-logo.png"
-          width="50"
-          height="50"
-          class="d-inline-block align-text-top"
-        />
-        crowsec</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#publications">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#aboutus">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+    <div id="container">
+      <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <a id="logo" class="navbar-brand" href=""
+          ><img
+            src="img/crowsec-logo.png"
+            width="50"
+            height="50"
+            class="d-inline-block align-text-top"
+          />
+          crowsec</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#services">services &nbsp;|&nbsp;</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#publications"
+                >publications &nbsp;|&nbsp;</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">about us &nbsp;|&nbsp;</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div id="services">
+        <div class="left-container">
+          <h2><a href="#services">services</a></h2>
+        </div>
+        <div class="right-container">
+          <h4>Penetration testing</h4>
+          <p>
+            crowsec does black box, grey box and white box security assessments
+            on web applications, mobile applications, web services and networks
+          </p>
+        </div>
       </div>
-    </nav>
-    <div>
-      <h3>
-        At crowsec, we find vulnerabilities in your product before hackers do.
-      </h3>
-    </div>
-    <div id="services">
-      <h2>Services we offer</h2>
-      <h3>Penetration testing</h3>
-      <p></p>
-    </div>
-    <div id="publications">
-      <h2>Pentest reports</h2>
-      <p>
-        These reports have been proudly published on explicit request of the
-        party that requested the pentest.
-      </p>
-      <h4>2023</h4>
-      <ul>
-        <li><a href="reports/uuid.pdf"> name of client - date </a></li>
-      </ul>
-    </div>
-    <div id="aboutus">
-      <h2>Meet the team</h2>
-      <ul>
-        <li>Alexander Badrishvili</li>
-      </ul>
-      <ul>
-        <li>Felix Lerner</li>
-      </ul>
-    </div>
-    <div id="contact">
-      <h2>Let us hack you</h2>
-      <p>
-        Send us an email at
-        <a href="mailto:hello@crowsec.io">hello@crowsec.io</a>
-      </p>
-      <address>postal addres</address>
-      <p>VAT: xxxxx</p>
+      <div id="publications">
+        <div class="left-container">
+          <h2><a href="#publications">pentest reports</a></h2>
+          <h3>
+            these reports have been proudly published on explicit request of the
+            party that requested the pentest
+          </h3>
+        </div>
+        <div class="right-container">
+          <h4>2023</h4>
+          <ul>
+            <li><a href="reports/uuid.pdf"> name of client - date </a></li>
+            <li><a href="reports/uuid.pdf"> name of client - date </a></li>
+            <li><a href="reports/uuid.pdf"> name of client - date </a></li>
+            <li><a href="reports/uuid.pdf"> name of client - date </a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="aboutus">
+        <div class="left-container">
+          <h2><a href="#aboutus">team</a></h2>
+          <h3>we are highly dedicated to deliver quality results</h3>
+        </div>
+        <div class="right-container">
+          <h4>Alexander Badrishvili</h4>
+          <ul>
+            <li>previous employers</li>
+            <li>linkedin and email</li>
+          </ul>
+          <h4>Felix Lerner</h4>
+          <ul>
+            <li>previous employers</li>
+            <li>linkedin and email</li>
+          </ul>
+        </div>
+      </div>
+      <div id="contact">
+        <div class="left-container">
+          <h2><a href="#contact">Let us hack you</a></h2>
+          <h3>before others do</h3>
+        </div>
+        <div class="right-container">
+          <h3>Send us an email</h3>
+          <a id="email" href="mailto:hello@crowsec.io">hello@crowsec.io</a>
+          <br />
+          <br />
+          <address>
+            1 Street <br />
+            1000 - Brussels<br />
+            BELGIUM
+          </address>
+          <p>VAT: xxxxx</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

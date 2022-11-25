@@ -11,7 +11,6 @@ div {
     margin-top: 20%;
 }
 
-
 .left-container {
     text-align: left;
     vertical-align: top;
@@ -22,10 +21,11 @@ div {
     border-left: 10px solid #262c30;
 }
 .right-container {
+
     text-align: left;
     display: inline-block;
     vertical-align: top;
-    margin:0;
+    margin: 12px 0 0 0;
     padding-left: 10%;
     width: 35%;
 }
@@ -142,8 +142,4 @@ p {
 .contact-form {
     margin: 0;
     text-align: left;
-}
-
-textarea {
-    resize: none;
 }

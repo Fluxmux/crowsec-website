@@ -19,8 +19,8 @@
       name="description"
       content="crowsec is a penetration testing company it offers quality security services to its clients"
     />
+    <script src="js/contact-form.js"></script>
   </head>
-
   <body>
     <div id="container">
       <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
@@ -73,7 +73,7 @@
         <div class="right-container">
           <h4>Penetration testing</h4>
           <p>
-            crow<b>sec</b> does full, partial, and zero knowledge security
+            crowsec does full, partial, and zero knowledge security
             assessments on web applications, mobile applications, web services
             and network infrastructure.
           </p>
@@ -100,7 +100,8 @@
       <div id="aboutus">
         <div class="left-container">
           <h2><a href="#aboutus">team</a></h2>
-          <h3>we are highly dedicated to deliver quality results</h3>
+          <h3>two cofounders with a passion for security</h3>
+          <p>at crowsec we strive to deliver blablabla</p>
         </div>
         <div class="right-container">
           <div class="person-container">
@@ -118,18 +119,36 @@
         <div class="left-container">
           <h2><a href="#contact">let us hack you</a></h2>
           <h3>before others do</h3>
+          <br/><br/>
+          <p><a id="email-address" href="mailto:hello@crowsec.io">hello@crowsec.io</a>
+            <address>
+              1 Street<br/>
+              1000 - Brussels<br/>
+              BELGIUM
+            </address>
+            VAT: xxxxx<br>
+            socials</p>
         </div>
         <div class="right-container">
-          <h3>Send us an email</h3>
-          <a id="email" href="mailto:hello@crowsec.io">hello@crowsec.io</a>
-          <br />
-          <br />
-          <address>
-            1 Street <br />
-            1000 - Brussels<br />
-            BELGIUM
-          </address>
-          <p>VAT: xxxxx</p>
+            <form onsubmit="sendContact(event)">
+              <div class="mb-3 contact-form">
+                <label for="name" class="form-label">name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="mb-3 contact-form">
+                <label for="company" class="form-label">company</label>
+                <input type="text" class="form-control" id="company">
+              </div>
+              <div class="mb-3 contact-form">
+                <label for="email" class="form-label">email address</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="mb-3 contact-form">
+                <label for="message" class="form-label">message</label>
+                <textarea class="form-control" id="message" rows="5"></textarea>
+              </div>
+              <button type="submit" id="submit" class="btn btn-primary">send</button>
+            </form>
         </div>
       </div>
     </div>

@@ -115,9 +115,7 @@ p {
     margin-right: 10%;
 }
 
-#email {
-    font-size: 18px;
-    color: var(--primary);
+#email-address {
     font-weight: bold;
 }
 
@@ -133,4 +131,15 @@ p {
     height: 80%;
     border-radius: 50%;
     margin-bottom: 10%;
+}
+
+#submit {
+    color: white;
+    background-color: var(--primary);
+    border-color: var(--secondary);
+}
+
+.contact-form {
+    margin: 0;
+    text-align: left;
 }

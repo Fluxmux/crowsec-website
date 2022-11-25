@@ -29,8 +29,8 @@ async function sendContact(ev) {
     });
 
     if (response.ok) {
-        alert('I have received your message!');
+        console.log('successfully sent message');
     } else {
-        alert('There was an error! Try again later!');
+        console.error('could not send message');
     }
 }

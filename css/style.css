@@ -71,6 +71,7 @@ body {
 
 a {
     color: var(--primary);
+    text-decoration: none;
 }
 
 a:hover {
@@ -156,12 +157,3 @@ p {
     margin: 0;
     text-align: left;
 }
-
-.social-media-button {
-    color: var(--primary);
-}
-
-
-
-/* Mobile */
-

@@ -157,6 +157,10 @@ p {
     text-align: left;
 }
 
+.social-media-button {
+    color: var(--primary);
+}
+
 
 
 /* Mobile */

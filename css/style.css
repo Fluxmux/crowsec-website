@@ -5,10 +5,21 @@
     --background: #262c30;
 }
 
-div {
-    text-align: center;
+.navbar-collapse{
+    text-align:center;
+}
+
+
+.container {
+    margin-top: 100px;
+}
+
+.col-md, .col-md-6 {
+   text-align: left;
+}
+
+.row {
     margin-bottom: 20%;
-    margin-top: 20%;
 }
 
 .left-container {
@@ -16,27 +27,29 @@ div {
     vertical-align: top;
     display: inline-block;
     margin:0;
-    padding-left: 1%;
-    width: 35%;
+    padding-left: 5%;
     border-left: 10px solid #262c30;
 }
 .right-container {
-
+    width: 100%;
     text-align: left;
     display: inline-block;
     vertical-align: top;
     margin: 12px 0 0 0;
     padding-left: 10%;
-    width: 35%;
 }
 
+.navbar-toggler {
+    margin-top: 10px;
+}
 #navbarNav {
-    margin: 0;
+    margin: 5px 0 0 0;
 }
 
 #navbar {
     color: var(--primary);
     border-bottom: 2px solid var(--primary);
+    padding: 0px;
 }
 
 .nav-link {
@@ -121,7 +134,7 @@ p {
 
 .person-container {
     vertical-align: top;
-    width: 50%;
+    width: 40%;
     margin: 0;
     display: inline-block;
 }
@@ -143,3 +156,8 @@ p {
     margin: 0;
     text-align: left;
 }
+
+
+
+/* Mobile */
+

@@ -12,6 +12,7 @@
 
 .container {
     margin-top: 100px;
+    max-width: 60%;
 }
 
 .col-md, .col-md-6 {

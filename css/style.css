@@ -158,3 +158,23 @@ p {
     margin: 0;
     text-align: left;
 }
+
+
+/* Mobile */
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+    .right-container {
+      margin-top: 30%; /* The width is 100%, when the viewport is 800px or smaller */
+      padding-left: 0;
+    }
+
+    .persons {
+        text-align: center;
+    }
+
+    .left-container {
+        border: 10px solid #66888e;
+    }
+
+
+  }

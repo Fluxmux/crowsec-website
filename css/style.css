@@ -28,7 +28,7 @@
     vertical-align: top;
     display: inline-block;
     margin:0;
-    padding-left: 15px;
+    padding: 15px;
     border-left: 10px solid #66888e;
 }
 .right-container {
@@ -136,7 +136,7 @@ p {
 
 .person-container {
     vertical-align: top;
-    width: 40%;
+    width: 45%;
     margin: 0;
     display: inline-block;
 }
@@ -175,6 +175,4 @@ p {
     .left-container {
         border: 10px solid #66888e;
     }
-
-
   }

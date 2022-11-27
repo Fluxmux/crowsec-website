@@ -9,7 +9,15 @@
     text-align:center;
 }
 
+.crowsec-logo-img {
+    width: 100%;
+    max-width: 60px;
+    height: auto;
+}
 
+#logo {
+    font-size: 38px;
+}
 .container {
     margin-top: 100px;
     max-width: 60%;
@@ -41,7 +49,6 @@
 }
 
 .navbar-toggler {
-    margin-top: 10px;
 }
 
 #navbar {
@@ -116,9 +123,8 @@ p {
     color: var(--secondary);
 }
 
-#logo {
-    font-size: 50px;
-    color: var(--primary);
+.navbar-brand {
+    margin-right: 10px;
 }
 
 #container {
@@ -172,6 +178,14 @@ p {
 
     .left-container {
         border: 10px solid #66888e;
+    }
+    
+    #logo {
+        font-size: 38px;
+    }
+
+    .row>* {
+        padding-left: 0;
     }
 }
 

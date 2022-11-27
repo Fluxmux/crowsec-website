@@ -173,4 +173,15 @@ p {
     .left-container {
         border: 10px solid #66888e;
     }
-  }
+}
+
+#no-js-warning-icon {
+    color: var(--primary);
+    margin-right: 5px;
+}
+
+#no-js-warning {
+    display:inline;
+    margin-left: 10px;
+    font-size: 12px;
+}
